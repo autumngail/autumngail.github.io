@@ -14,7 +14,7 @@
 #logo {
 	float: center;
 	width: 100%;
-	text-align: center;
+	text-align: center; 
 }
 
 .float-right {
@@ -95,14 +95,14 @@ li {
 	margin-left: 2em;
 }
 body {
-	background-color: white;
+	background-color: #000000;
 }
-		h1 {font-family: 'Cinzel', serif; font-size: 550%; text-shadow: 0px 0px 1px #000000; }
-		h5 {font-family: 'Cinzel', serif; font-size: 400%; text-shadow: 0px 0px 1px #000000; }
-		h2 {font-family: 'Lora', serif; font-size: 350%; text-shadow: 0px 0px 1px #000000; text-align: center; text-shadow: 0px 0px 1px #000000;}
-		h3 {font-family: 'Lora', serif; font-size: 250%; text-shadow: 0px 0px 1px #000000; margin-left: 75px ; text-shadow: 0px 0px 1px #000000;}
-		h4 {font-family: 'Lora', serif; font-size: 125%; text-shadow: 0px 0px 1px #000000; margin-left: 75px ; text-shadow: 0px 0px 1px #000000;}
-			p {font-family: 'Cardo', serif; font-size: 125%; margin: 0px 100px 0px 100px;}
+		h1 {font-family: 'Cinzel', serif; font-size: 550%; text-shadow: 0px 0px 1px #ffffff; }
+		h5 {font-family: 'Cinzel', serif; font-size: 400%; text-shadow: 0px 0px 1px ##ffffff; }
+		h2 {font-family: 'Lora', serif; font-size: 350%; text-shadow: 0px 0px 1px ##ffffff; text-align: center; text-shadow: 0px 0px 1px ##ffffff;}
+		h3 {font-family: 'Lora', serif; font-size: 250%; text-shadow: 0px 0px 1px ##ffffff; margin-left: 75px ; text-shadow: 0px 0px 1px ##ffffff;}
+		h4 {font-family: 'Lora', serif; font-size: 125%; text-shadow: 0px 0px 1px ##ffffff; margin-left: 75px ; text-shadow: 0px 0px 1px ##ffffff;}
+			p {font-family: 'Cardo', serif; font-size: 125%; margin: 0px 100px 0px 100px; #ffffff;}
 
 /*
 font-family: 'Give You Glory', cursive;
