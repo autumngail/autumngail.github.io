@@ -42,7 +42,7 @@ nav ul li {
 
 nav a {
 	text-decoration: none;
-	background-color: #ffffff;
+	background-color: #000000;
 
 	}
 	
@@ -65,10 +65,10 @@ nav ul li a:hover {
 	font-weight: bold;
 	}
 nav ul li a:visited {
-	color: #000000;
+	color: #ffffff;
 	}
 nav ul li a:link {
-	color: #000000
+	color: #ffffff
 	}
 nav ul li {
 	position: relative;
@@ -79,7 +79,7 @@ nav ul ul {
 	position:absolute;
 	top:100%;
 	left:0;
-	background:#f7fafc;
+	background:#000000;
 	padding:0 }
 nav ul ul li {
 	float:none;
