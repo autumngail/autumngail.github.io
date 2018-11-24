@@ -6,6 +6,7 @@
 #right-column {
 	float: right;
 	width: 50%;
+	
 }
 #left-column {
 	float: left;
@@ -62,7 +63,7 @@ nav ul li a {
 }
 nav ul li a:hover {
 	font-family: 'Crimson Text', serif;
-	font-weight: bold;
+	text-shadow: 0px 0px 20px #ffffff;
 	}
 nav ul li a:visited {
 	color: #ffffff;
@@ -98,11 +99,15 @@ body {
 	background-color: #000000;
 }
 		h1 {font-family: 'Cinzel', serif; font-size: 550%; color: #ffffff; text-shadow: 0px 0px 1px #ffffff; }
-		h5 {font-family: 'Cinzel', serif; font-size: 400%; text-shadow: 0px 0px 1px ##ffffff; }
-		h2 {font-family: 'Lora', serif; color: #ffffff; font-size: 350%; text-align: center; text-shadow: 0px 0px 1px ##ffffff;}
-		h3 {font-family: 'Lora', serif; color: #ffffff; font-size: 250%; background-color: #ffffff; color: #000000; text-shadow: 0px 0px 1px ##ffffff;}
-		h4 {font-family: 'Lora', serif; font-size: 125%; text-shadow: 0px 0px 1px ##ffffff; margin-left: 75px ; text-shadow: 0px 0px 1px ##ffffff;}
-			p {font-family: 'Cardo', serif;  color: #ffffff; font-size: 125%;}
+		h2 {font-family: 'Cinzel', serif; color: #000000; font-size: 250%; background-color: #ffffff; text-shadow: 0px 0px 0px #000000; }
+		h3 {font-family: 'Lora', serif; color: #ffffff; font-size: 175%; text-align: text-shadow: 0px 0px 0px #ffffff;}
+		h4 {font-family: 'Lora', serif; color: #ffffff; font-size: 150%;  color: #ffffff; text-shadow: 0px 0px 0px #ffffff;}
+		h5 {left-margin: 50%; font-size: 125%; color: #ffffff; text-alight: center; text-shadow: 0px 0px 0px #ffffff; font-family: 'Lora', serif;  }
+			p {font-family: 'Cardo', serif;  color: #ffffff; font-size: 125%; margin-left: 50px; }
+			pre {font-family: 'Cardo', serif;  color: #ffffff; font-size: 125%;}
+		
+#new-font {
+
 
 /*
 font-family: 'Give You Glory', cursive;
@@ -112,8 +117,8 @@ font-family: 'Cardo', serif;
  */
 
 
-h1 a{ text-decoration: none; color: black; }/* Globally */
-h5 { text-decoration: none; color: black; }/* Globally */
+h1 a{ text-decoration: none; color: #ffffff; }/* Globally */
+h5 { text-decoration: none; color: #ffffff; }/* Globally */
 
 /* Each state */
 
@@ -122,10 +127,124 @@ a:hover { text-decoration: none; color:none; }
 a:focus { text-decoration: none; color:none; }
 a:hover, a:active { text-decoration: none; color:none }
 
-footer { font-family: 'Cinzel', serif; font-size: 100%; }
+footer { font-family: 'Cinzel', serif; color: white; font-size: 100%; }
 
+* {box-sizing:border-box}
 
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* fade border for slideshow on home page */
+/*
+#top, #bottom, #left, #right {
+	display: none;
+	}
+	#left, #right {
+		position: fixed;
+		top: 0; bottom: 0;
+		width: 88px;
+		}
+		#left { left: 0;  background: slide_chicken01.jpg left center repeat-y;}
+		#right { right: 0; background: slide_chicken01.jpg right center repeat-y;}
+		
+	#top, #bottom {
+		position: fixed;
+		left: 0; right: 0;
+		height: 88px;
+		}
+		#top { top: 0px; background: slide_chicken01.jpg top center repeat-x; }
+		#bottom { bottom: 0px; background: slide_chicken01.jpg bottom center repeat-x; }
+*/
 
 
 

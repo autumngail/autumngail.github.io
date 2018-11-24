@@ -1,0 +1,1 @@
+bool mail ( string $to , string $subject , string $message [, mixed $additional_headers [, string $additional_parameters ]] )
