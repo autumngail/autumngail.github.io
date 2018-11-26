@@ -13,7 +13,7 @@
 	width:50%;
 }
 #logo {
-	float: center;
+	float: left;
 	width: 100%;
 	text-align: center; 
 }
@@ -34,11 +34,13 @@
 nav ul {
 	list-style-type: none;
 	padding: 0;
-	margin: 10; }
+	margin: 10; 
+	z-index: 1; }
 	
 nav ul li {
 	position: relative;
 	float: left;
+	z-index: 1;
 }
 
 nav a {
@@ -55,7 +57,7 @@ nav ul a {
 	text-decoration: none; 
 	display: block;
 	font-family: 'Crimson Text', serif;
-	font-size: 175%
+	font-size: 150%
 	
 	}
 nav ul li a {
@@ -84,11 +86,11 @@ nav ul ul {
 	padding:0 }
 nav ul ul li {
 	float:none;
-	width:175px
+	width:130px
 	}
 nav ul ul a {
 	line-height:120%;
-	padding:10px 15px }
+	padding: 3px 5px }
 nav ul li:hover > ul {
 	display:block }
 li {
@@ -100,9 +102,9 @@ body {
 }
 		h1 {font-family: 'Cinzel', serif; font-size: 550%; color: #ffffff; text-shadow: 0px 0px 1px #ffffff; }
 		h2 {font-family: 'Cinzel', serif; color: #000000; font-size: 250%; background-color: #ffffff; text-shadow: 0px 0px 0px #000000; }
-		h3 {font-family: 'Lora', serif; color: #ffffff; font-size: 175%; text-align: text-shadow: 0px 0px 0px #ffffff;}
+		h3 {font-family: 'Lora', serif; color: #ffffff; font-size: 175%; text-align: left; text-shadow: 0px 0px 0px #ffffff;}
 		h4 {font-family: 'Lora', serif; color: #ffffff; font-size: 150%;  color: #ffffff; text-shadow: 0px 0px 0px #ffffff;}
-		h5 {left-margin: 50%; font-size: 125%; color: #ffffff; text-alight: center; text-shadow: 0px 0px 0px #ffffff; font-family: 'Lora', serif;  }
+		h5 {margin-left: 50%; font-size: 125%; color: #ffffff; text-align: center; text-shadow: 0px 0px 0px #ffffff; font-family: 'Lora', serif;  }
 			p {font-family: 'Cardo', serif;  color: #ffffff; font-size: 125%; margin-left: 50px; }
 			pre {font-family: 'Cardo', serif;  color: #ffffff; font-size: 125%;}
 		
@@ -122,12 +124,14 @@ h5 { text-decoration: none; color: #ffffff; }/* Globally */
 
 /* Each state */
 
-a:visited { text-decoration: none; color:none; }
-a:hover { text-decoration: none; color:none; }
-a:focus { text-decoration: none; color:none; }
-a:hover, a:active { text-decoration: none; color:none }
+a href { text-decoration: none; color: #ffffff; }
+a:visited { text-decoration: none; color: #ffffff; }
+a:hover { text-decoration: none; color: #ffffff; }
+a:focus { text-decoration: none; color: #ffffff; }
+a:hover, a:active { text-decoration: none; color: #ffffff }
 
-footer { font-family: 'Cinzel', serif; color: white; font-size: 100%; }
+
+#myfooter { clear: both; font-family: 'Cinzel', serif; color: #ffffff !important; font-size: 100%; }
 
 * {box-sizing:border-box}
 
@@ -136,6 +140,7 @@ footer { font-family: 'Cinzel', serif; color: white; font-size: 100%; }
   max-width: 1000px;
   position: relative;
   margin: auto;
+  z-index: -1;
 }
 
 /* Hide the images by default */
@@ -357,8 +362,8 @@ td, th {
 
 nav ul {
 	list-style-type: none;
-	padding: 0;
-	margin: 0; }
+	padding: 0px;
+	margin: 0px; }
 nav ul li {
 	position: relative;
 	float: left;
