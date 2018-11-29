@@ -1,0 +1,25 @@
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img.lazy { 
+width: 100%;
+display: block;
+} 
+/*
+opacity: 5;
+	transition: opacity 10s;
+}
+
+img[data-src] {
+	opacity: 0;
+}
+*/

@@ -106,7 +106,7 @@ body {
 		h4 {font-family: 'Lora', serif; color: #ffffff; font-size: 150%;  color: #ffffff; text-shadow: 0px 0px 0px #ffffff;}
 		h5 {margin-left: 50%; font-size: 125%; color: #ffffff; text-align: center; text-shadow: 0px 0px 0px #ffffff; font-family: 'Lora', serif;  }
 			p {font-family: 'Cardo', serif;  color: #ffffff; font-size: 125%; margin-left: 50px; }
-			pre {font-family: 'Cardo', serif;  color: #ffffff; font-size: 75%; position: absolute }
+			pre {font-family: 'Cardo', serif;  color: #ffffff; font-size: 75%; position: relative }
 		
 #new-font {
 
@@ -133,7 +133,6 @@ a:hover, a:active { text-decoration: none; color: #ffffff }
 
 #thecursedfooter { clear: both; position: absolute; font-family: 'Cinzel', serif; color: blue !important; font-size: 100%; text-decoration: none;}
 
-#lazyloadimages { height: 50% }
 * {box-sizing:border-box}
 
 /* Slideshow container */
