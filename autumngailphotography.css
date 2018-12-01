@@ -13,27 +13,18 @@
 	float: left;
 	width:50%;
 }
-#logo {
-	float: left;
-	width: 100%;
-	text-align: center; 
-}
-
 .float-right {
 	float: right;
 }
 .float-left {
 	float: left;
 }
-.leftmargin {
-	margin-left: 2em;
+#logo {
+	float: left;
+	width: 100%;
+	text-align: center; 
 }
-
-.container1 {float:left; }
-.containter2 {float:right; }
-
-body.home 
-{
+body.home {
   background:transparent url(background_image01.jpg);
    /*
 	filter: blur(8px);
@@ -43,42 +34,41 @@ body.home
 }
 
 body {
-	background-color: #000000;
-	
-}
+	background-color: #ffeceb; }
 /*font for nav tabs is in nav stylesheet*/
 /*Header/Title for each page, can be found on nav bar */
-h1 {font-family: 'Permanent Marker', cursive; font-size: 200%; color: #000000 }
+h1 {font-family: 'Ramabhadra', sans-serif; font-size: 140%; color: #000000 }
 /*Section Title*/
-h2 { font-family: 'Ramabhadra', sans-serif; font-size: 200%; color: #000000 }
+h2 { font-family: 'Ramabhadra', sans-serif; font-size: 185%; color: #1EA896 }   /*#FF715B*/
 /*Segment Title*/
-h3 {
-}
+h3 { font-family: 'Ramabhadra', sans-serif; font-size:150%; color: #4C5454; }
 /*Used for footer because footer is cursed lol*/
 pre { font-family: 'Montserrat', sans-serif; font-size:70%; color: #000000 }
 p {font-family: 'Montserrat', sans-serif; font-size:125%; color: #000000 }
 
-
-/*
-		h1 {font-family: 'Cinzel', serif; font-size: 200%; color: #000000; text-shadow: 0px 0px 0px #000000; }
-		h2 {font-family: 'Cinzel', serif; color: #000000; font-size: 250%; background-color: #ffffff; text-shadow: 0px 0px 0px #000000; }
-		h3 {font-family: 'Lora', serif; color: #000000; font-size: 175%; text-align: left; text-shadow: 0px 0px 0px #000000;}
-		h4 {font-family: 'Lora', serif; color: #ffffff; font-size: 150%;  color: #ffffff; text-shadow: 0px 0px 0px #000000;}
-		h5 {margin-left: 50%; font-size: 125%; color: #000000; text-align: center; text-shadow: 0px 0px 0px #000000; font-family: 'Lora', serif;  }
-			p {font-family: 'Cardo', serif;  color: #000000; font-size: 125%; margin-left: 50px; }
-			pre {font-family: 'Cardo', serif;  color: #000000; font-size: 75%; position: relative }
-		
-
-h1 a{ text-decoration: none; color: #000000; }
-h5 { text-decoration: none; color: #000000; }
-*/
 /* Each state */
 
-a href { text-decoration: none; color: #ffffff; }
-a:visited { text-decoration: none; color: #ffffff; }
-a:hover { text-decoration: none; color: #ffffff; }
-a:focus { text-decoration: none; color: #ffffff; }
-a:hover, a:active { text-decoration: none; color: #ffffff }
+a { text-decoration: none; color:#1EA896;; }
+a:visited { text-decoration: none; color: #1EA896; }
+a:hover { text-decoration: none; color: #1EA896; }
+a:focus { text-decoration: none; color: #1EA896; }
+a:hover, a:active { text-decoration: none; color: #1EA896; }
+
+/* Blinking Text */
+.blink_me {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
 
 
 #thecursedfooter { clear: both; position: absolute; font-family: 'Cinzel', serif; color: blue !important; font-size: 100%; text-decoration: none;}

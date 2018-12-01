@@ -1,0 +1,45 @@
+/*three column lay out + lazy load */
+
+img.lazy { width: 99%; 
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-right {
+	float: right;
+}
+.float-left {
+	float: left;
+}
+.leftmargin {
+	margin-left: 2em;
+}
+
+.container1 {float:left; }
+.containter2 {float:right; }
+
+box {
+    position: relative;
+    height: 200px;
+}
+#fade_me_out {  
+    opacity : 1;
+    transition: all 2s ease-in-out;
+    background: linear-gradient(
+        to bottom,  
+        rgba(255,255,255,0) 0%,
+        rgba(255,255,255,.9) 90%
+    );
+}
+#fade_me_out.end {
+    opacity: 0;

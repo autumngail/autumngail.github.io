@@ -263,7 +263,14 @@ if (!window['lzld']) {
         }
       }
     }
-
+	
+	/* Fade Effect */
+document.getElementById("img").addEventListener('load',
+    function() {
+        document.getElementById("fade_me_out").className = "end";
+    }
+);
+	
     // https://github.com/jquery/sizzle/blob/3136f48b90e3edc84cbaaa6f6f7734ef03775a07/sizzle.js#L708
     var contains = document.documentElement.compareDocumentPosition ?
       function( a, b ) {

@@ -23,3 +23,22 @@ img[data-src] {
 	opacity: 0;
 }
 */
+
+/* #otis { list-style-type: none; } */
+
+ul { list-style-type: none;}
+li { list-style-type: none; font-family: 'Montserrat', sans-serif; font-size:125%; color: #000000 }
+
+/* Order prints main, menu inline*/
+#containerIntro h3,
+#containerIntro p {
+    display: inline;
+    vertical-align: top;}
+
+a { text-decoration: none; color:#000000; }
+a:visited { text-decoration: none; color: #1EA896; }
+a:hover { text-decoration: none; color: #1EA896; }
+a:focus { text-decoration: none; color: #1EA896; }
+a:hover, a:active { text-decoration: none; color: #1EA896; }  
+
+

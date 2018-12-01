@@ -6,7 +6,10 @@
 		<meta name="viewport" content="width=device-width" initial-scale="1.0">
 		<link rel="stylesheet" href="autumngailphotography.css">
 		<link rel="stylesheet" href="stickynavstyle.css">
+		<link rel="stylesheet" href="lazyloadstyle.css">
+
 		<link href="https://fonts.googleapis.com/css?family=Ramabhadra|Hammersmith+One|Merriweather|Montserrat|Permanent+Marker" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 </head>
 <body>
 <a href="index.html">
@@ -33,7 +36,7 @@
 		<img src="fbicon.png" alt="Facebook Icon" style="width:35px;height:35px;"></a>
 	<a href="https://www.instagram.com/autumngailphotography/" target="_blank"><img src="
 		instagramicon.png" alt="Instagram Icon" style="width:35px;height:35px;"></a>
-		<div class="float-right"><h1>Gallery&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1></div>
+		<div class="float-right"><h1>Gallery&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1></div>
 </div>
 <div id="wrapper">
 	<!--
@@ -45,9 +48,10 @@
 
 
 <!-- lazy load gallery -->
+<div class="fade_me_out">
 <div class="row">
   <div class="column">
-  		<img class="lazy" data-frz-src="gallery0001.jpg"
+    		<img class="lazy" data-frz-src="gallery0001.jpg"
     src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
     onload=lzld(this) onerror=lzld(this) />
 		<img class="lazy" data-frz-src="gallery0002.jpg"
@@ -71,10 +75,7 @@
 	<img class="lazy" data-frz-src="gallery0008.jpg"
     src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
     onload=lzld(this) onerror=lzld(this) />
-	
-		
-	
-  </div>
+	</div>
   <div class="column">
   <img class="lazy" data-frz-src="gallery0009.jpg"
     src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
@@ -132,8 +133,7 @@
 	<img class="lazy" data-frz-src="gallery0026.jpg"
     src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
     onload=lzld(this) onerror=lzld(this) />
-  </div>
-</div>
+  </div></div></div>
 
 
 
@@ -144,5 +144,6 @@
 </div>
 <script src="lazyload.min.js"></script>
 <script src="lazyload.js"></script>
+<script src="stickynav.js"></script>
 </body>
 </html>
