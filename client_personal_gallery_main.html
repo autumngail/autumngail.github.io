@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-		<title>Fireworks 2018</title>
+		<title>Blank</title>
 		<meta charset= "utf-8">
 		<meta name="viewport" content="width=device-width" initial-scale="1.0">
 		<link rel="stylesheet" href="autumngailphotography.css">
 		<link rel="stylesheet" href="stickynavstyle.css">
+		<link rel="stylesheet" href="lazyloadstyle.css">
+		
 		<link href="https://fonts.googleapis.com/css?family=Kristi|Poiret+One|Swanky+and+Moo+Moo|Ramabhadra|Hammersmith+One|Merriweather|Montserrat|Permanent+Marker" rel="stylesheet">
 <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 </head>
 <body>
-<a href="index.html"><h4>Autumn Gail Photography</h4></a>				
+<a href="index.html"><h4>Autumn Gail Photography</h4></a>			
 <div id="navbar">
-  <a href="index.html">Home</a>
+  <a class="active" href="index.html">Home</a>
   <a href="bio.html">Bio</a>
   <a href="gallery.html">Gallery</a>
 							<!--<ul>					
@@ -32,11 +34,10 @@
 		<img src="fbicon.png" alt="Facebook Icon" style="width:35px;height:35px;"></a>
 	<a href="https://www.instagram.com/autumngailphotography/" target="_blank"><img src="
 		instagramicon.png" alt="Instagram Icon" style="width:35px;height:35px;"></a>
-		<div class="float-right"><h1>Fireworks 2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1></div>
+		<div class="float-right"><h1>Your Gallery</h1></div>
 </div>
-<div id="wrapper">
-<br>
-	<style>
+<!-- NOTE: STILL NEED TO CREATE PASSWORD CODE-->
+<style>
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -188,8 +189,17 @@ z-index: -15;
   <span class="dot"></span>
   <span class="dot"></span>  
   <span class="dot"></span>
-</div> 
-
+</div> </div>
+<div id="wrapper"> <!-- IS IT POSSIBLE TO HAVE TWO WRAPPERS?? OH WELL-->
+<div class="fade_me_out">
+<div class="row">
+  <div class="column">
+  </div>
+  <div class="column">
+  </div>
+  <div class="column">
+  </div>
+  </div>
 <script>
 var slideIndex = 0;
 showSlides();
@@ -211,11 +221,13 @@ function showSlides() {
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 </script>
+<script src="lazyload.min.js"></script>
+<script src="lazyload.js"></script>
 <br><br><br>
 <pre>2018 ©AutumnGailPhotography | Web Design by Autumn | This website is dedicated to my father, Charlie, who said it was a stupid idea to buy a camera.
 </pre>
+
 </div>
-<script src="slideshowindex.js"></script>
 <script src="stickynav.js"></script>
 </body>
 </html>

@@ -24,8 +24,9 @@
 	width: 100%;
 	text-align: center; 
 }
-body.home {
+/* body.home {
   background:transparent url(background_image01.jpg);
+  */
    /*
 	filter: blur(8px);
   -webkit-filter: blur(8px);
@@ -34,25 +35,33 @@ body.home {
 }
 
 body {
-	background-color: #ffeceb; }
+	background-color: #ffffff; }
 /*font for nav tabs is in nav stylesheet*/
 /*Header/Title for each page, can be found on nav bar */
-h1 {font-family: 'Ramabhadra', sans-serif; font-size: 140%; color: #000000 }
+h1 {font-family: 'Ramabhadra', sans-serif; font-size: 140%; color: #000000; margin-top: 10px; margin-bottom: 10px;}
 /*Section Title*/
-h2 { font-family: 'Ramabhadra', sans-serif; font-size: 185%; color: #1EA896 }   /*#FF715B*/
+h2 { font-family: 'Ramabhadra', sans-serif; font-size: 185%; color: #1EA896; margin-top: 5px; margin-bottom: 5px; }   /*#FF715B*/
 /*Segment Title*/
-h3 { font-family: 'Ramabhadra', sans-serif; font-size:150%; color: #4C5454; }
+h3 { font-family: 'Ramabhadra', sans-serif; font-size:150%; color: #4C5454; margin-top: 5px; margin-bottom: 5px; }
 /*Used for footer because footer is cursed lol*/
-pre { font-family: 'Montserrat', sans-serif; font-size:70%; color: #000000 }
-p {font-family: 'Montserrat', sans-serif; font-size:125%; color: #000000 }
+pre { font-family: 'Montserrat', sans-serif; font-size:70%; color: #000000; margin-top: 10px; margin-bottom: 10px; }
+p {font-family: 'Montserrat', sans-serif; font-size:125%; color: #000000; margin-top: 10px; margin-bottom: 10px; }
+
+/*THE LOGO AT TOP DO NOT CHANGE*/	
+h4 {font-family: 'Kristi', cursive; font-size: 700%; color #000000;  
+font-weight: normal; margin-top: 10px; margin-bottom: 10px; text-align: center;}
+
+h5 {font-family: 'Permanent Marker', cursive; font-size: 200%; color #000000; text-decoration: none; margin-top: 10px; margin-bottom: 10px;}
+h6 {font-family: 'Nothing You Could Do', cursive; font-size: 200%; color #1EA896; text-shadow: 0px 0px 0px #000000;
+margin-top: 10px; margin-bottom: 10px; text-align: center; font-weight: normal}
 
 /* Each state */
 
-a { text-decoration: none; color:#1EA896;; }
-a:visited { text-decoration: none; color: #1EA896; }
+a { text-decoration: none; color:#000000; }
+a:visited { text-decoration: none; color: #000000; }
 a:hover { text-decoration: none; color: #1EA896; }
 a:focus { text-decoration: none; color: #1EA896; }
-a:hover, a:active { text-decoration: none; color: #1EA896; }
+a:hover, a:active { text-decoration: none; color: #000000; }
 
 /* Blinking Text */
 .blink_me {
