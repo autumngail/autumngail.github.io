@@ -46,20 +46,19 @@ h3 { font-family: 'Ramabhadra', sans-serif; font-size:150%; color: #4C5454; marg
 /*Used for footer because footer is cursed lol*/
 pre { font-family: 'Montserrat', sans-serif; font-size:70%; color: #000000; margin-top: 10px; margin-bottom: 10px; }
 p {font-family: 'Montserrat', sans-serif; font-size:125%; color: #000000; margin-top: 10px; margin-bottom: 10px; }
+h4 {font-family: 'Nothing You Could Do', cursive; font-size: 200%; color #1EA896; text-decoration: none;
+margin-top: 10px; margin-bottom: 10px; text-align: center;}
+h5 {font-family: 'Kristi', cursive; font-size: 450%; color #000000; text-align: center; margin-top: 10px; margin-bottom: 10px;}
 
 /*THE LOGO AT TOP DO NOT CHANGE*/	
-h4 {font-family: 'Kristi', cursive; font-size: 700%; color #000000;  
+h6 {font-family: 'Kristi', cursive; font-size: 700%; color #000000;  
 font-weight: normal; margin-top: 10px; margin-bottom: 10px; text-align: center;}
-
-h5 {font-family: 'Permanent Marker', cursive; font-size: 200%; color #000000; text-decoration: none; margin-top: 10px; margin-bottom: 10px;}
-h6 {font-family: 'Nothing You Could Do', cursive; font-size: 200%; color #1EA896; text-shadow: 0px 0px 0px #000000;
-margin-top: 10px; margin-bottom: 10px; text-align: center; font-weight: normal}
 
 /* Each state */
 
 a { text-decoration: none; color:#000000; }
 a:visited { text-decoration: none; color: #000000; }
-a:hover { text-decoration: none; color: #1EA896; }
+a:hover { text-decoration: none; color: #1EA896; text-shadow: 0px 0px 1px #000000;}
 a:focus { text-decoration: none; color: #1EA896; }
 a:hover, a:active { text-decoration: none; color: #000000; }
 
@@ -84,5 +83,6 @@ a:hover, a:active { text-decoration: none; color: #000000; }
 
 * {box-sizing:border-box}
 
-
-
+@media screen and(max-width: 959px) {
+	background-image { width: 100%;
+}

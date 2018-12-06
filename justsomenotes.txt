@@ -1,18 +1,20 @@
 Pages to EDIT:
 
-Heavy Work:
+MOBILE COMPATIBLE:
+- fix logo on every page excluding index
+
+
+
+Pages to complete
 free-backgrounds---scroll slideshow
-printreleaseinfo
-weddingpackages
-make website mobile compatible
+weddingpackages 
 
-Light Work:
 
+Other:
 -------put "blog" tab on nav
+-------MAKE photography business paypal - verify bank
 
--------MAKE photography business paypal
-
-
+Notes:
 clients receive email within 2 weeks of their finished
 photos 
 
