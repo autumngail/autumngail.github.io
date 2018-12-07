@@ -26,3 +26,7 @@ create email templates
 
 add preferred payment method in all order forms
 
+fix print option page font
+
+FAQ- make everything float left
+
